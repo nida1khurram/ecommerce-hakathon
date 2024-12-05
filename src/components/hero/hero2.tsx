@@ -4,10 +4,11 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 import { Inter } from "next/font/google";
+import HeroPart2 from './heroPart2';
 const inter = Inter({ subsets: ["latin"], weight: ["400"] });
 export default function Hero2() {
   return (
-    <div className='w-full md:w-[1308px] h-auto md:h-[493px]  mt-32 ml-2'>
+    <div className='w-full md:w-[1308px] h-auto md:h-[493px]  mt-32 ml-2 mb-40'>
         {/* Todays main */}
         <div className='w-full md:w-[1170px] h-auto md:h-[103px] flex md:flex-row flex-col justify-between  '>
     {/* flash main left-side */}
@@ -46,8 +47,11 @@ export default function Hero2() {
  {/* Todays main end*/}
         </div>
 
-
-
+<HeroPart2 />
+<div className='w-[180px] md:w-[234px] h-[40px] md:h-[56px] bg-redcolor mt-10 ml-10 md:ml-[600px] rounded-sm'>
+          <p  className={`${poppins.className} text-[16px] text-white text-center `}>View All Products</p>
+        </div>
+        <hr className='mt-10'/>
     </div>
   )
 }

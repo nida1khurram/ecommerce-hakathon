@@ -24,6 +24,7 @@ const config: Config = {
 			redcolor:'#DB4444',
 			textgray:'#363738',
 			lightgray:'#f5f5f5',
+			yellowstar:'#FFAD33',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
