@@ -8,7 +8,7 @@ import { MdOutlineRemoveRedEye } from "react-icons/md";
 
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
-export default function HeroPart2() {
+export default function Hero2Part2() {
   return (
     <div className='w-full md:w-[1308px] h-auto md:h-[350px] mt-10 grid md:grid-cols-4 gap-10   '>
        {/* 1 */}

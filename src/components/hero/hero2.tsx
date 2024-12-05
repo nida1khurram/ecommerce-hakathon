@@ -4,7 +4,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 import { Inter } from "next/font/google";
-import HeroPart2 from './heroPart2';
+import HeroPart2 from './hero2Part2';
+import Hero2Part2 from './hero2Part2';
 const inter = Inter({ subsets: ["latin"], weight: ["400"] });
 export default function Hero2() {
   return (
@@ -47,7 +48,7 @@ export default function Hero2() {
  {/* Todays main end*/}
         </div>
 
-<HeroPart2 />
+<Hero2Part2 />
 <div className='w-[180px] md:w-[234px] h-[40px] md:h-[56px] bg-redcolor mt-10 ml-10 md:ml-[600px] rounded-sm'>
           <p  className={`${poppins.className} text-[16px] text-white text-center `}>View All Products</p>
         </div>
