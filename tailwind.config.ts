@@ -9,6 +9,12 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			inter: ['var(--inter)'],
+			poppins: ['var(--poppins)'],
+			pacifico: ['var(--pacifico)']
+		},
+
   		backgroundImage: {
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
@@ -19,12 +25,16 @@ const config: Config = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
+			darkgreen:'#184A48',
+			mygreen:'#00FF66',
 			hoverBtn:'#E07575',
+			red:'#FB1314',
 			red2:'#E07575',
 			redcolor:'#DB4444',
 			textgray:'#363738',
 			lightgray:'#f5f5f5',
 			yellowstar:'#FFAD33',
+			yellowcircle:'#EEFF61',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

@@ -4,12 +4,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 import { Inter } from "next/font/google";
-import HeroPart2 from './hero2Part2';
 import Hero3Part2 from './hero3part2';
+
 const inter = Inter({ subsets: ["latin"], weight: ["400"] });
 export default function Hero3() {
   return (
-    <div className='w-full md:w-[1170px] h-auto md:h-[313px]  mt-32 ml-2 mb-40'>
+    <div className='w-full md:w-[1170px] h-auto md:h-[313px]  mt-32 ml-2 mb-20'>
         {/* categories top */}
         <div className='w-full md:w-[1170px] h-auto md:h-[108px] flex md:flex-row flex-col justify-between  '>
     {/* flash main left-side */}
@@ -38,7 +38,7 @@ export default function Hero3() {
         </div>
  {/* categories top end*/}
         </div>
-
+{/* hero section 2 */}
 <Hero3Part2 />
 <hr className='mt-12'/>
     </div>

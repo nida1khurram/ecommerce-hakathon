@@ -73,9 +73,10 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 import { IoIosArrowForward } from "react-icons/io";
 import { Poppins } from "next/font/google";
-import Hero2 from "./hero2";
+
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 import { Inter } from "next/font/google";
+
 const inter = Inter({ subsets: ["latin"], weight: ["400"] });
 
 export default function Hero() {
@@ -109,7 +110,7 @@ export default function Hero() {
       <div className="md:w-[55.75rem] w-full bg-black md:ml-[21.875rem] h-full flex flex-col md:flex-row">
         <div className="md:w-[24.75rem] w-full flex flex-col md:flex-row items-start justify-start gap-5">
           {/* Text Section */}
-          <div className="ml-5 md:ml-14 mt-10 md:mt-20">
+          <div className="ml-5 md:ml-20 mt-10 md:mt-14">
             <div className="flex items-center w-[11.875rem] h-[3.0625rem]">
               <Image
                 width={40}
@@ -132,7 +133,7 @@ export default function Hero() {
               off Voucher
             </h1>
             <span
-              className={`${poppins.className} mt-2 md:mt-[-20px] text-[16px] text-[#fafafa] underline underline-offset-1 flex items-center`}
+              className={`${poppins.className} mt-2 md:mt-[10px] text-[16px] text-[#fafafa] underline underline-offset-1 flex items-center`}
             >
               Shop Now
               <FaArrowRightLong className="ml-3 w-6 h-6" />
@@ -140,20 +141,18 @@ export default function Hero() {
           </div>
 
           {/* Image Section */}
-          <div className="md:w-[31rem] w-full h-auto flex items-center justify-center">
-            <Image
+         
+           <Image
               width={496}
               height={352}
               alt="hero"
               src={"/assets/hero/hero-img.png"}
-              className="w-[31rem] h-auto"
+              className="w-[31rem] h-auto mt-9"
             />
-          </div>
+          {/*  */}
         </div>
       </div>
     </div>
-<Hero2 />
-
 
 
 
