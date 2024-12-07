@@ -57,7 +57,7 @@ export default function Header2() {
         <input
           type="text"
           placeholder="What are you looking for?"
-          className="md:w-[211px] h-[24px] text-black placeholder-gray-500 text-sm  focus:outline-none focus:ring-2 focus:ring-myYellow mt-2 ml-2 "
+          className="md:w-[211px] h-[24px] text-black bg-[#f5f5f5] placeholder-gray-500 text-sm  focus:outline-none focus:ring-2 focus:ring-myYellow mt-2 ml-2 "
         />
         {/* Search Icon */}
         <button className="absolute right-6 top-2 text-gray-500 hover:text-black">
@@ -66,20 +66,12 @@ export default function Header2() {
       </div>
  
             {/* search end */}
-            {/* <div className="w-9 h-9 md:w-[138px] md:h-[32px] flex"> */}
+         
             <div className="hidden w-9 h-9 md:w-[80px] md:h-[32px] md:flex justify-end ">
             <FaRegHeart className="w-6 h-6 md:w-[32px] md:h-[32px] mr-3"/>
             <MdOutlineShoppingCart className="w-6 h-6 md:w-[32px] md:h-[32px] "/>   
             </div>
                
-           {/* <div className="w-6 h-6 md:w-[32px] md:h-[32px] bg-red-500 rounded-full mt-2 mx-auto">
-           <CiUser className="w-6 h-6 md:w-[32px] md:h-[32px] "/>
-           </div> */}
-           
-           
-
-        {/* </div> */}
-
         </div>
          {/* sheet */}
          <Sheet>

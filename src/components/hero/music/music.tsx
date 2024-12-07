@@ -4,7 +4,7 @@ import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"], weight: ["400"] });
-export default function Hero5() {
+export default function Music() {
   return (
     <div className='w-full md:w-[1170px] h-full md:h-[500px] mx-auto grid md:grid-cols-2 bg-black mb-20 md:mb-20 '>
        {/* reverse */}
@@ -42,7 +42,7 @@ export default function Hero5() {
         {/* right side */}
         <div className='w-[300px] md:w-[600px] h-auto md:h-[420px] mx-auto relative '>
         <Image 
-           width={568} height={330} alt="w1" src={'/assets/hero5/p1.png'}
+           width={568} height={330} alt="w1" src={'/assets/music/p1.png'}
             className="w-[200px] md:w-[568px] md:h-[330px] absolute mt-20 ml-[-30px] z-10"/>
         <div className=' w-[300px]  h-[200px] md:w-[500px] md:h-[350px] rounded-full bg-white/50 blur-2xl mx-auto absolute md:mt-20 '>
         </div>

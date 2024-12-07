@@ -13,7 +13,7 @@ import { LuGamepad } from "react-icons/lu";
 
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
-export default function Hero3Part2() {
+export default function Categories2() {
   return (
     <div className='w-full md:w-[1170px] h-auto md:h-[145px] mt-10 grid md:grid-cols-6 gap-10 mx-auto  '>
        {/* 1 */}

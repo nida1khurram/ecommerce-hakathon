@@ -1,14 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
 import { FaStar } from "react-icons/fa";
-
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
 
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
-export default function Hero2Part2() {
+export default function FlashSales2() {
   return (
     <div className='w-full md:w-[1308px] h-auto md:h-[350px] mt-10 grid md:grid-cols-4 gap-10   '>
        {/* 1 */}
@@ -28,11 +32,20 @@ export default function Hero2Part2() {
             </div>
             
             {/* img */}
-            <div className='w-[270px] h-[250px] bg-lightgray '>
+            {/* hovercard */}
+            <HoverCard>
+            <HoverCardTrigger>
+            <div className='w-[270px] h-[250px] bg-lightgray   '>
            <Image 
-           width={172} height={152} alt="w1" src={'/assets/hero2/p1.png'}
+           width={172} height={152} alt="w1" src={'/assets/flashSale/p1.png'}
             className="  absolute mt-10 ml-8"/>
             </div>
+            </HoverCardTrigger>
+             <HoverCardContent  className={` bg-black text-[#fff] text-center mt-[-45px] ml-[-140px] absolute`}>
+                          Add To Cart        
+             </HoverCardContent>
+            </HoverCard>
+            {/* hovercard */}
         {/* text */}
             <div className='w-[201px] h-[84px] ml-5 mt-4 leading-loose'>
             <h3  className={`${poppins.className} text-[16px] `}>HAVIT HV-G92 Gamepad</h3>
@@ -66,16 +79,21 @@ export default function Hero2Part2() {
             <div className='w-[34px] h-[34px] absolute  bg-white ml-[220px] mt-14 rounded-full'>
             <MdOutlineRemoveRedEye className='w-6 h-6 mx-auto mt-1'/>
             </div>
-            {/* add to cart */}
-              <div className='w-[270px] h-[41px] bg-black  absolute mt-52'>
-                <p className={`${poppins.className}  text-[#fff] ml-20 mt-2`}>Add To Cart</p>
-              </div>
             {/* img */}
+             {/* hovercard */}
+             <HoverCard>
+            <HoverCardTrigger>
             <div className='w-[270px] h-[250px] bg-lightgray '>
            <Image 
-           width={172} height={152} alt="w1" src={'/assets/hero2/p2.png'}
+           width={172} height={152} alt="w1" src={'/assets/flashSale/p2.png'}
             className="  absolute mt-10 ml-8"/>
             </div>
+            </HoverCardTrigger>
+             <HoverCardContent  className={` bg-black text-[#fff] text-center mt-[-45px] ml-[-140px] absolute`}>
+                          Add To Cart        
+             </HoverCardContent>
+            </HoverCard>
+            {/* hovercard */}
         {/* text */}
             <div className='w-[201px] h-[84px] ml-5 mt-4 leading-loose'>
             <h3  className={`${poppins.className} text-[16px] `}>AK-900 Wired Keyboard</h3>
@@ -110,11 +128,20 @@ export default function Hero2Part2() {
             <MdOutlineRemoveRedEye className='w-6 h-6 mx-auto mt-1'/>
             </div>
             {/* img */}
+             {/* hovercard */}
+             <HoverCard>
+            <HoverCardTrigger>
             <div className='w-[270px] h-[250px] bg-lightgray '>
            <Image 
-           width={172} height={152} alt="w1" src={'/assets/hero2/p3.png'}
+           width={172} height={152} alt="w1" src={'/assets/flashSale/p3.png'}
             className="  absolute mt-10 ml-8"/>
             </div>
+            </HoverCardTrigger>
+             <HoverCardContent  className={` bg-black text-[#fff] text-center mt-[-45px] ml-[-140px] absolute`}>
+                          Add To Cart        
+             </HoverCardContent>
+            </HoverCard>
+            {/* hovercard */}
         {/* text */}
             <div className='w-[201px] h-[84px] ml-5 mt-4 leading-loose'>
             <h3  className={`${poppins.className} text-[16px] `}>IPS LCD Gaming Monitor</h3>
@@ -148,11 +175,20 @@ export default function Hero2Part2() {
             <MdOutlineRemoveRedEye className='w-6 h-6 mx-auto mt-1'/>
             </div>
             {/* img */}
+             {/* hovercard */}
+             <HoverCard>
+            <HoverCardTrigger>
             <div className='w-[270px] h-[250px] bg-lightgray '>
            <Image 
-           width={172} height={152} alt="w1" src={'/assets/hero2/p4.png'}
+           width={172} height={152} alt="w1" src={'/assets/flashSale/p4.png'}
             className="  absolute mt-10 ml-8"/>
             </div>
+            </HoverCardTrigger>
+             <HoverCardContent  className={` bg-black text-[#fff] text-center mt-[-45px] ml-[-140px] absolute`}>
+                          Add To Cart        
+             </HoverCardContent>
+            </HoverCard>
+            {/* hovercard */}
         {/* text */}
             <div className='w-[201px] h-[84px] ml-5 mt-4 leading-loose'>
             <h3  className={`${poppins.className} text-[16px] `}>S-Series Comfort Chair</h3>

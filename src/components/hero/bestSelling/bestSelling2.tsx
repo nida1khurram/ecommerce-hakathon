@@ -8,7 +8,7 @@ import { MdOutlineRemoveRedEye } from "react-icons/md";
 
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
-export default function Hero4Part2() {
+export default function BestSelling2() {
   return (
     <div className='w-full md:w-[1308px] h-auto md:h-[350px] mt-10 grid md:grid-cols-4 gap-10 ml-2  '>
        {/* 1 */}
@@ -25,7 +25,7 @@ export default function Hero4Part2() {
             <div className='w-[270px] h-[250px] bg-lightgray rounded-md'>
                 {/* <div className='w-[190px] h-[180px] border-2 border-black mx-auto '> */}
                 <Image 
-           width={140} height={146} alt="w1" src={'/assets/hero4/p1.png'}
+           width={140} height={146} alt="w1" src={'/assets/bestSelling/p1.png'}
             className="  absolute mt-14 ml-14 "/>
                 {/* <div> */}
           
@@ -62,7 +62,7 @@ export default function Hero4Part2() {
             <div className='w-[270px] h-[250px] bg-lightgray rounded-md'>
                 {/* <div className='w-[190px] h-[180px] border-2 border-black mx-auto '> */}
                 <Image 
-           width={140} height={146} alt="w1" src={'/assets/hero4/p2.png'}
+           width={140} height={146} alt="w1" src={'/assets/bestSelling/p2.png'}
             className="  absolute mt-14 ml-14 "/>
                 {/* <div> */}
           
@@ -110,7 +110,7 @@ export default function Hero4Part2() {
             <div className='w-[270px] h-[250px] bg-lightgray rounded-md'>
                 {/* <div className='w-[190px] h-[180px] border-2 border-black mx-auto '> */}
                 <Image 
-           width={140} height={146} alt="w1" src={'/assets/hero4/p3.png'}
+           width={140} height={146} alt="w1" src={'/assets/bestSelling/p3.png'}
             className="  absolute mt-14 ml-14 "/>
                 {/* <div> */}
           
@@ -158,7 +158,7 @@ export default function Hero4Part2() {
             <div className='w-[270px] h-[250px] bg-lightgray rounded-md'>
                 {/* <div className='w-[190px] h-[180px] border-2 border-black mx-auto '> */}
                 <Image 
-           width={140} height={146} alt="w1" src={'/assets/hero4/p4.png'}
+           width={140} height={146} alt="w1" src={'/assets/bestSelling/p4.png'}
             className="  absolute mt-14 ml-14 "/>
                 {/* <div> */}
           

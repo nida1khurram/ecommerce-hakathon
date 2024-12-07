@@ -12,7 +12,7 @@ const config: Config = {
 		fontFamily: {
 			inter: ['var(--inter)'],
 			poppins: ['var(--poppins)'],
-			pacifico: ['var(--pacifico)']
+			pacifico: ['var(--pacifico)'],
 		},
 
   		backgroundImage: {

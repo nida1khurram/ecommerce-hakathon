@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+// 1
+import {Roboto, Poppins, Playfair_Display} from 'next/font/google'
 import "./globals.css";
 import Navbar from "@/components/header/navbar";
 import Footer from "@/components/footer/footer";
-
+// 2
+const roboto = Roboto({ subsets: ["latin"], weight:['100','300'], variable:'--font-roboto', });
+const play_fair = Playfair_Display({ subsets: ["latin"], weight:['600'], variable:'--font-playfair', });
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,7 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+     {/* 3 */}
+      <body className={(roboto.variable, play_fair.variable)} >
         <Navbar />
         {children}
         <Footer />

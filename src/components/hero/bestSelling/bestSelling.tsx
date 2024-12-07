@@ -3,11 +3,12 @@ import React from 'react'
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 import { Inter } from "next/font/google";
-import Hero4Part2 from './hero4part2';
+import Hero4Part2 from './bestSelling2';
+import BestSelling2 from './bestSelling2';
 
 
 const inter = Inter({ subsets: ["latin"], weight: ["400"] });
-export default function Hero4() {
+export default function BestSellingProduct() {
   return (
     <div className='w-full md:w-[1170px] h-auto md:h-[518px] mt-10 ml-2 mb-20'>
         {/*  main */}
@@ -34,7 +35,7 @@ export default function Hero4() {
  {/*  main end*/}
         </div>
 
-<Hero4Part2 />
+<BestSelling2 />
 
     </div>
   )
