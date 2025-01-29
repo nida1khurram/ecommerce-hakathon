@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={(roboto.variable, play_fair.variable)} >
         <Navbar />
         {children}
-        <Footer />
+        {/* <Footer /> */}
         </body>
     </html>
   );

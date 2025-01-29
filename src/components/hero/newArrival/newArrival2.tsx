@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 export default function NewArrival2() {
   return (
-    <div className='w-full md:w-[1170px] h-auto md:h-[600px] grid grid-cols-1 md:grid-cols-2 gap-4 mt-10 ml-2 mb-10  border-2 border-redcolor'>
+    <div className='w-full md:w-[1170px] h-auto md:h-[600px] grid grid-cols-1 md:grid-cols-2 gap-4 mt-10 ml-2 mb-10  '>
                  {/* 1 main*/}
            
-       <div className="w-full md:w-[570px]  md:row-span-2 border-2 border-green-600">
+       <div className="w-full md:w-[570px]  md:row-span-2 ">
                     <Image
                         src={'/assets/newArrival/p1.png'}
                         alt="chef holding plate"
@@ -15,7 +15,7 @@ export default function NewArrival2() {
                     />
        </div>
         {/* 2 main */}
-       <div className="w-full md:w-[570px] h-auto md:h-[284px]md:row-span-2 border-2 border-redcolor">
+       <div className="w-full md:w-[570px] h-auto md:h-[284px]md:row-span-2 ">
                     <Image
                         src={'/assets/newArrival/p2.png'}
                         alt="chef holding plate"
@@ -24,7 +24,7 @@ export default function NewArrival2() {
                         className=""
                     />
                     {/* sub main */}
-                     <div className="w-full md:w-[570px] h-auto md:h-[284px]md:row-span-2 border-2 border-yellow-500 md:row-span-2 flex flex-col md:flex-row items-center mt-20 md:mr-32">
+                     <div className="w-full md:w-[570px] h-auto md:h-[284px]md:row-span-2  md:row-span-2 flex flex-col md:flex-row items-center mt-20 md:mr-32">
                       
                          <Image
                         src={'/assets/newArrival/p3.png'}

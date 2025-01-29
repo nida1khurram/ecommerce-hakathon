@@ -3,7 +3,6 @@ import { Menu } from "lucide-react";
 import Link from "next/link";
 import { FiSearch } from "react-icons/fi";
 import { MdOutlineShoppingCart } from "react-icons/md";
-import { CiUser } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
 import {Inter} from "next/font/google"
 const inter = Inter({subsets:['latin'],weight: ['400', '700'],})
@@ -50,17 +49,18 @@ export default function Header2() {
     </div>
 
      {/* right section */}
-     <div className="w-full md:w-[395px] flex flex-col md:flex-row justify-between  md:ml-44">
+     <div className="w-full md:w-[395px] flex flex-col md:flex-row justify-between   md:ml-44">
 {/* search start */}
 <div className="relative w-full md:w-[243px] md:h-[38px] bg-[#f5f5f5] ">
         {/* Input Field */}
         <input
           type="text"
           placeholder="What are you looking for?"
-          className="md:w-[211px] h-[24px] text-black bg-[#f5f5f5] placeholder-gray-500 text-sm  focus:outline-none focus:ring-2 focus:ring-myYellow mt-2 ml-2 "
+          className="md:w-[211px] h-[24px] text-black bg-[#f5f5f5] placeholder-gray-500 text-sm  focus:outline-none focus:ring-2 focus:ring-myYellow 
+          mt-4 md:mt-2 md:ml-2 mr-6"
         />
         {/* Search Icon */}
-        <button className="absolute right-6 top-2 text-gray-500 hover:text-black">
+        <button className="absolute right-6 top-2 text-gray-500 hover:text-black ">
           <FiSearch className="w-6 h-6" />
         </button>
       </div>
@@ -75,7 +75,7 @@ export default function Header2() {
         </div>
          {/* sheet */}
          <Sheet>
-          <SheetTrigger className="text-[20px] font-bold mr-[30px] mt-[-90px] md:hidden ">
+          <SheetTrigger className="text-[20px] font-bold  md:mr-[30px] mt-[-90px] md:hidden ">
             <Menu />
           </SheetTrigger>
           <SheetContent >
